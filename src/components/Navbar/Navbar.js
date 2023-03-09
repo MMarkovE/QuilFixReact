@@ -1,7 +1,7 @@
 import './Navbar.css'
 import logo from './logo.png'
-import ShoppingCartRoundedIcon from '@mui/icons-material/ShoppingCartRounded';
-import { CartWidget } from '../CartWidget/CartWidget';
+import { CartWidget } from '../CartWidget/CartWidget'
+
 
 export const Navbar = () => {
 
@@ -17,11 +17,10 @@ export const Navbar = () => {
 
 
                 </nav>
-
-                <ShoppingCartRoundedIcon />
+                
+                <CartWidget />
 
             </div>
-
 
         </header>
 

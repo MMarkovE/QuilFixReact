@@ -1,4 +1,7 @@
-.cart-widget {
+.cart-container {
     display: flex;
     align-items: center;
+    color: aliceblue;
+    gap: 10px;
+    width: 50px;
 }

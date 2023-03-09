@@ -1,9 +1,10 @@
 .header {
-    background-color: rgb(32, 10, 156);
+    background-color: rgba(14, 21, 85, 0.877);
 }
 
 .header__logo {
     max-width: 125px;
+    color: aliceblue;
 }
 
 .header__container {
@@ -24,4 +25,5 @@
 
 .navbar__link {
     cursor: pointer;
+    color: aliceblue;
 }
