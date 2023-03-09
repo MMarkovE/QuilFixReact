@@ -1,6 +1,7 @@
 import './Navbar.css'
 import logo from './logo.png'
-import { Button } from '@mui/material'
+import ShoppingCartRoundedIcon from '@mui/icons-material/ShoppingCartRounded';
+import { CartWidget } from '../CartWidget/CartWidget';
 
 export const Navbar = () => {
 
@@ -13,10 +14,15 @@ export const Navbar = () => {
                     <p className="navbar__link">Enlace 1</p>
                     <p className="navbar__link">Enlace 2</p>
                     <p className="navbar__link">Enlace 3</p>
+
+
                 </nav>
+
+                <ShoppingCartRoundedIcon />
+
             </div>
 
-            <Button variant="contained">Clickeame gato</Button>
+
         </header>
 
     )

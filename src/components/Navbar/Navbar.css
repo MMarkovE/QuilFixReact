@@ -21,3 +21,7 @@
     align-items: center;
     gap: 25px;
 }
+
+.navbar__link {
+    cursor: pointer;
+}
