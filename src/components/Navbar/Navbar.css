@@ -1,0 +1,23 @@
+.header {
+    background-color: rgb(32, 10, 156);
+}
+
+.header__logo {
+    max-width: 125px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 25px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
