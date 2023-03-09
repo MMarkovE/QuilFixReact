@@ -1,6 +1,8 @@
 import './Navbar.css'
 import logo from './logo.png'
+import Button from '@mui/material/Button';
 import { CartWidget } from '../CartWidget/CartWidget'
+
 
 
 export const Navbar = () => {
@@ -11,13 +13,13 @@ export const Navbar = () => {
                 <img src={logo} className="header__logo" alt='logo'></img>
 
                 <nav className="navbar">
-                    <p className="navbar__link">Enlace 1</p>
-                    <p className="navbar__link">Enlace 2</p>
-                    <p className="navbar__link">Enlace 3</p>
+                    <Button variant='contained'>Enlace 1</Button>
+                    <Button variant='contained'>Enlace 2</Button>
+                    <Button variant='contained'>Enlace 3</Button>
 
 
                 </nav>
-                
+
                 <CartWidget />
 
             </div>
