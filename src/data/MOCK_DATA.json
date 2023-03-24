@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Vinyl",
+        "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "price": 80449,
+        "stock": 7,
+        "category": "celular"
+    },
+    {
+        "id": 2,
+        "name": "Wood",
+        "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "price": 91884,
+        "stock": 12,
+        "category": "celular"
+    },
+    {
+        "id": 3,
+        "name": "Plastic",
+        "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "price": 170263,
+        "stock": 22,
+        "category": "celular"
+    },
+    {
+        "id": 4,
+        "name": "Wood",
+        "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "price": 55427,
+        "stock": 9,
+        "category": "celular"
+    },
+    {
+        "id": 5,
+        "name": "Steel",
+        "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "price": 52450,
+        "stock": 52,
+        "category": "celular"
+    },
+    {
+        "id": 6,
+        "name": "Aluminum",
+        "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "price": 53557,
+        "stock": 3,
+        "category": "accesorio"
+    },
+    {
+        "id": 7,
+        "name": "Wood",
+        "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "price": 53369,
+        "stock": 8,
+        "category": "accesorio"
+    },
+    {
+        "id": 8,
+        "name": "Steel",
+        "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "price": 198795,
+        "stock": 7,
+        "category": "accesorio"
+    },
+    {
+        "id": 9,
+        "name": "Plexiglass",
+        "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "price": 78777,
+        "stock": 14,
+        "category": "accesorio"
+    },
+    {
+        "id": 10,
+        "name": "Granite",
+        "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "price": 151540,
+        "stock": 14,
+        "category": "accesorio"
+    },
+    {
+        "id": 11,
+        "name": "Brass",
+        "description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "price": 173490,
+        "stock": 32,
+        "category": "accesorio"
+    },
+    {
+        "id": 12,
+        "name": "Brass",
+        "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "price": 50361,
+        "stock": 65,
+        "category": "accesorio"
+    },
+    {
+        "id": 13,
+        "name": "Steel",
+        "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "price": 116258,
+        "stock": 8,
+        "category": "accesorio"
+    },
+    {
+        "id": 14,
+        "name": "Rubber",
+        "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "price": 191318,
+        "stock": 6,
+        "category": "celular"
+    },
+    {
+        "id": 15,
+        "name": "Brass",
+        "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "price": 194637,
+        "stock": 4,
+        "category": "celular"
+    },
+    {
+        "id": 16,
+        "name": "Plastic",
+        "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "price": 69262,
+        "stock": 12,
+        "category": "celular"
+    },
+    {
+        "id": 17,
+        "name": "Stone",
+        "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "price": 128844,
+        "stock": 3,
+        "category": "celular"
+    },
+    {
+        "id": 18,
+        "name": "Plexiglass",
+        "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "price": 94875,
+        "stock": 75,
+        "category": "celular"
+    },
+    {
+        "id": 19,
+        "name": "Glass",
+        "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "price": 53849,
+        "stock": 21,
+        "category": "accesorio"
+    },
+    {
+        "id": 20,
+        "name": "Granite",
+        "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "price": 129025,
+        "stock": 14,
+        "category": "accesorio"
+    }
+]
