@@ -19,7 +19,7 @@ export const ItemDetailContainer = () => {
             .finally(() => {
                 setLoading(false)
             })
-    }, [])
+    }, [itemId])
 
     return (
         <div>

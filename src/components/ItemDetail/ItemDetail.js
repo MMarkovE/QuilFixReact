@@ -8,7 +8,6 @@ export const ItemDetail = ({ item }) => {
             <p>Precio: ${item.price}</p>
             <p>{item.description}</p>
             <h5>Stock disponible :{item.stock}</h5>
-
         </div>
     )
 }
