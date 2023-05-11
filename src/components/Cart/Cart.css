@@ -1,0 +1,40 @@
+.title {
+  font-weight: 700;
+  font-size: x-large;
+  color: #01234a;
+}
+
+.crickets {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.crickets img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.item__quantity {
+  font-size: medium;
+  color: #d10620;
+}
+
+.item__unityprice {
+  font-size: medium;
+  color: black;
+}
+
+.item__totalprice {
+  font-size: medium;
+  color: black;
+}
+
+.item__finalprice {
+  font-weight: 700;
+  font-size: large;
+  color: black;
+}

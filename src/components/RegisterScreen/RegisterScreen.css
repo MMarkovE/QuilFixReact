@@ -1,0 +1,34 @@
+.login-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #01234a;
+}
+
+.login-mini-container {
+    width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.register__link {
+    text-decoration: none;
+    color: white;
+}
+
+.register__link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.title__login {
+    color: white;
+}

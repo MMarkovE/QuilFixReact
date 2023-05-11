@@ -1,11 +1,19 @@
-.cart-container {
+.cart-widget {
     display: flex;
     align-items: center;
+    justify-content: center;
     color: aliceblue;
-    gap: 10px;
+    gap: 5px;
     width: 50px;
+    padding-right: 20px;
+    text-decoration: none;
 }
 
-.cart-container__carticon {
+.cart-widget:hover {
+    transition: 200ms ease-in;
+    color: #01234a;
+}
+
+.cart-widget {
     cursor: pointer;
 }

@@ -1,6 +1,5 @@
 .list-container {
-    max-width: 900px;
-    margin: auto;
+    padding-left: 5em;
 }
 
 .list-container__title {

@@ -1,17 +1,18 @@
-import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import { useContext } from 'react'
+import { FaCartPlus } from 'react-icons/fa'
+import { CartContext } from '../../context/CartContext'
 import './CartWidget.css'
+import { Link } from 'react-router-dom'
 
-export const CartWidget = () => {
+const CartWidget = () => {
+    const { totalCantidad, cart } = useContext(CartContext)
 
     return (
-        <div className='cart-container'>
-            <AddShoppingCartIcon className='cart-container__carticon'/>
-            <span> 0 </span>
-        </div>
+        <Link to="/cart" className={`cart-widget ${cart.length > 0 ? 'cart-widget-active' : ''}`}>
+            <FaCartPlus className='cart-icon'/>
+            <span>{totalCantidad()}</span>
+        </Link>
     )
-
 }
 
-
-
-
+export default CartWidget

@@ -1,41 +1,21 @@
-import { useEffect, useState } from 'react'
+import ItemList from '../ItemList/ItemList'
 import './ItemListContainer.css'
-import { pedirDatos } from '../../helpers/helpers'
-import { ItemList } from '../ItemList/ItemList'
-import { useParams } from 'react-router-dom'
+import Loader from '../Loader/Loader'
+import useProductos from './useProductos'
 
-export const ItemListContainer = () => {
+const ItemListContainer = () => {
 
-    const [productos, setProductos] = useState([])
-    const [loading, setLoading] = useState(true)
-
-    const { categoryId } = useParams()
-
-    useEffect(() => {
-        setLoading(true)
-
-        pedirDatos()
-            .then((res) => {
-                if (categoryId) {
-                    setProductos(res.filter((prod) => prod.category === categoryId))
-                } else {
-                    setProductos(res)
-                }
-            })
-            .finally(() => {
-                setLoading(false)
-            })
-    }, [categoryId])
+    const { productos, loading } = useProductos()
 
     return (
-        <div>
-            {
-                loading
-                    ? <h2>Cargando...</h2>
-                    : <ItemList items={productos} />
-                // cambiar el loading por algo mas copado
+        <div className="container my-5">
+            {loading
+                ? <Loader />
+                : <ItemList items={productos} />
             }
+
         </div>
     )
 }
 
+export default ItemListContainer

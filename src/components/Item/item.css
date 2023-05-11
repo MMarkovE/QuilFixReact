@@ -1,0 +1,42 @@
+.item__name {
+    font-weight: 700;
+    font-size: x-large;
+    color: #01234a;
+}
+
+.item__subtitle {
+    font-size: large;
+    color: black;
+}
+
+.item__price {
+    font-weight: 700;
+    font-size: large;
+    color: black;
+}
+
+.item__stock {
+    font-size: small;
+    color: #556a83;
+}
+
+.item__img {
+    float: inline-end;
+    width: 40%;
+    aspect-ratio: 6/2;
+    object-fit: contain;
+}
+
+.button__item {
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    text-decoration: none;
+    background-color: #01234a;
+}
+
+.button__item:hover {
+    transition: 200ms ease-in;
+    color: white;
+}

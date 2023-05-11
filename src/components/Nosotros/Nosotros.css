@@ -1,0 +1,15 @@
+.nosotros__container {
+    padding-left: 5em;
+}
+
+.nosotros__title {
+    font-weight: 600;
+    font-size: x-large;
+    color: #01234a;
+}
+
+.nosotros__subtitle {
+    font-size: medium;
+    color: #556a83; 
+}
+
